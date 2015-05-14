@@ -26,7 +26,7 @@
 #### 解密用户文件
 - 先用 AES 解密，再用 GZIP 解压用户文件
 
-#### 使用方法（假定输出可运行包名为helper.jar）
+#### 使用方法（假定包名为helper.jar）
 - 帮助：java -jar helper.jar
 - 生成用户密钥：java -jar helper.jar -genkey outputPath
 - 加密用户文件和生成安全索引：java -jar helper.jar -secureindex inputPath outputPath keyFile (startId)
