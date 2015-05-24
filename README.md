@@ -1,7 +1,7 @@
 # secure-index
 这是用于密文检索的辅助工具，其可运行程序已包含在[secure-search](https://github.com/7hat/secure-search)项目中。
 #### 基本设计思路
-- 使用 AES 加密原文档集合，检索过程不设计原文件。
+- 使用 AES 加密原文档集合，检索过程不涉及原文件。
 - 构造安全索引：
  - 关键字入口：使用 HMAC 构建
  - 陷门：使用 HMAC 加密临时生成的 AES 项密钥
